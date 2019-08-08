@@ -7,9 +7,8 @@
 -   To run locally watching for changes:
     `yarn start` or `npm run start`
 
-### TSLint Setup
+### What the TsLint Config Does
 
-What the config does
 Lints (with TSLint) based on the latest Airbnb standards (eslint-config-airbnb)
 
 Lints and fixes on every save (with Prettier)
