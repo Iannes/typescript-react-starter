@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BodyText /> Receives variant and titletext props Renders properly 1`] = `
+<p
+  className="MuiTypography-root MuiTypography-body1"
+>
+  Paragraph t
+</p>
+`;

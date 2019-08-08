@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Row /> Renders properly 1`] = `
+<section
+  className="row"
+>
+  <span>
+    rowKeyName
+  </span>
+</section>
+`;
