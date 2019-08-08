@@ -1,6 +1,6 @@
 # Typescript & React Starter
 
-### Client Setup
+### Setup
 
 -   To install all dependencies, head over to your terminal and run the below command:
     `yarn install` or `npm install`
