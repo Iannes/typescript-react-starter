@@ -27,14 +27,6 @@ Open the settings `VSCode > File > Preferences > Settings`, then in the top righ
     "editor.codeActionsOnSave": {
         "source.fixAll.tslint": true
     },
-
-    // turn it off for JSX, we will do this via tslint
-
-    "[javascript]": {
-        "editor.formatOnSave": false
-    },
-
-    "prettier.disableLanguages": ["javascript", "javascriptreact"]
 }
 
 
