@@ -15,8 +15,9 @@ Lints and fixes on every save (with Prettier)
 
 Setup
 
-    - Install [TSLint](https://github.com/Microsoft/typescript-tslint-plugin) and Prettier extensions via `Code > Preferences > Extensions`. 
-    - In the settings.json file. Add the following lines:
+Install [TSLint](https://github.com/Microsoft/typescript-tslint-plugin) and Prettier extensions via `Code > Preferences > Extensions`. 
+
+In the settings.json file. Add the following lines:
 
 ```
 {
