@@ -15,18 +15,23 @@ Lints and fixes on every save (with Prettier)
 
 Setup
 
-Install [TSLint](https://github.com/Microsoft/typescript-tslint-plugin) and Prettier extensions via `VSCode > File > Preferences > Extensions`.
-Open the settings `VSCode > File > Preferences > Settings`, then in the top right corner click the {} to open the settings.json file. Add following lines:
+    - Install [TSLint](https://github.com/Microsoft/typescript-tslint-plugin) and Prettier extensions via `Code > Preferences > Extensions`. 
+    - In the settings.json file. Add the following lines:
 
 ```
 {
-    "prettier.tslintIntegration": true,
-    "editor.formatOnSave": true,
-    "editor.tabSize": 2,
-    "files.insertFinalNewline": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "editor.codeActionsOnSave": {
         "source.fixAll.tslint": true
     },
+    "prettier.eslintIntegration": true,
+    "prettier.tslintIntegration": true
 }
 
 
