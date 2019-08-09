@@ -13,7 +13,7 @@ Lints (with TSLint) based on the latest Airbnb standards (eslint-config-airbnb)
 
 Lints and fixes on every save (with Prettier)
 
-Setup
+### Setup
 
 Install [TSLint](https://github.com/Microsoft/typescript-tslint-plugin) and Prettier extensions via `Code > Preferences > Extensions`. 
 
