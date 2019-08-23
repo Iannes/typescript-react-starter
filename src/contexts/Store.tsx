@@ -1,9 +1,9 @@
-import React from 'react';
-import { FormProvider } from './GlobalContext';
-import { ContextChildren } from '../types';
+import React from "react";
+import { FormProvider } from "./GlobalContext";
+import { ContextChildren } from "../types";
 
 const Store: ContextChildren = ({ children }) => {
-    return <FormProvider>{children}</FormProvider>;
+  return <FormProvider>{children}</FormProvider>;
 };
 
 export default Store;
