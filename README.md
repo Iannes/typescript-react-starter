@@ -50,5 +50,6 @@ In the `settings.json file`, add the following lines:
   "typescript.updateImportsOnFileMove.enabled": "always",
 
 ```
-- Restart `VSCode`.
-  - Note: The `ESLint` extension for `VSCode` relies on `node_modules/eslint`, so make sure you have run `yarn` before restarting `VSCode`.
+Restart `VSCode`
+
+Note: The `ESLint` extension for `VSCode` relies on `node_modules/eslint`, so make sure you have run `yarn` before restarting `VSCode`.
