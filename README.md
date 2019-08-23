@@ -1,7 +1,7 @@
 # Typescript & React Starter
 
 <details>
- <summary><h3>Table Of Contents</h3></summary>
+ <summary>Table Of Contents</summary>
   <a href='#why'>Why</a>
   <a href='#what-the-eslint-config-does'>What the config does</a>
   <a href='#setup'>Setup</a>   
