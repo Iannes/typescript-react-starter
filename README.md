@@ -2,6 +2,7 @@
 
 <details>
  <summary>Table Of Contents</summary>
+ <hr>
   <p><a href='#why'>Why</a></p>
   <p><a href='#what-the-eslint-config-does'>What the config does</a></p>
   <p><a href='#setup'>Setup</a></p>
