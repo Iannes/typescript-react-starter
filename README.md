@@ -3,9 +3,11 @@
 <details>
  <summary>Table Of Contents</summary>
  <hr>
-  <p><a href='#why'>Why</a></p>
-  <p><a href='#what-the-eslint-config-does'>What the config does</a></p>
-  <p><a href='#setup'>Setup</a></p>
+ <ol>
+  <li><a href='#why'>Why</a></li>
+  <li><a href='#what-the-eslint-config-does'>What the config does</a></li>
+  <li><a href='#setup'>Setup</a></li>
+  </ol>
 </details>
 
 ### Why
