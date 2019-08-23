@@ -1,10 +1,10 @@
 # Typescript & React Starter
 
 <details>
- <summary>Table Of Contents</summary>
- 1. [Why](#why)
-   1. [What the config does](#what-the-eslint-config-does)
-1. [Setup](#setup)
+ <summary><h3>Table Of Contents</h3></summary>
+  <a href='#why'>Why</a>
+  <a href='#what-the-eslint-config-does'>What the config does</a>
+  <a href='#setup'>Setup</a>   
 </details>
 
 ### Why
