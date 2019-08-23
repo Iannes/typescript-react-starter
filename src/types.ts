@@ -1,6 +1,5 @@
 import { GlobalFormAction, FormAction } from "./actions";
 
-export type TextProps = { titleText: string; variant?: string };
 export type ChangeEvent = React.ChangeEvent<HTMLInputElement>;
 export type KeyboardEvent = React.KeyboardEvent<HTMLDivElement>;
 export type ContextChildren = React.FC<React.ReactNode>;
