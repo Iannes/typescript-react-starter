@@ -7,6 +7,7 @@
   <li><a href='#why'>Why</a></li>
   <li><a href='#what-the-eslint-config-does'>What the config does</a></li>
   <li><a href='#setup'>Setup</a></li>
+  <li><a href='#context-api'>Context API</a></li>
   </ol>
 </details>
 
@@ -56,3 +57,7 @@ In the `settings.json file`, add the following lines:
 Restart `VSCode`
 
 Note: The `ESLint` extension for `VSCode` relies on `node_modules/eslint`, so make sure you have run `yarn` before restarting `VSCode`.
+
+### Context API
+
+This project uses the React Context API along with React Hooks and more specifically the native `React.useReducer` hook.To see how it works, head over to the [GlobalContext](src/contexts/GlobalContext.tsx) file.
