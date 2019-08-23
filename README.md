@@ -60,4 +60,4 @@ Note: The `ESLint` extension for `VSCode` relies on `node_modules/eslint`, so ma
 
 ### Context API
 
-This project uses the React Context API along with React Hooks and more specifically the native `React.useReducer` hook.To see how it works, head over to the [GlobalContext](src/contexts/GlobalContext.tsx) file.
+This project uses the React Context API along with React Hooks and more specifically the native `React.useReducer` hook. To see how it works, head over to the [GlobalContext](src/contexts/GlobalContext.tsx) file.
