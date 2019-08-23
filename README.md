@@ -10,9 +10,9 @@
   </ol>
 </details>
 
-### Why
+### Why ESLint
 
-`ESLint` is the one of the most widely-used linting tools in web development. It’s an invaluable tool for keeping the team’s code consistent by ensuring everyone is following the same style conventions.
+ESLint is the one of the most widely-used linting tools in web development. It’s an invaluable tool for keeping the team’s code consistent by ensuring everyone is following the same style conventions.
 
 ### What the ESLint Config Does
 
@@ -22,12 +22,12 @@ Lints and fixes on every save (with Prettier)
 
 ### Setup
 
--   To install all dependencies, head over to your terminal and run the below command:
-    `yarn install` or `npm install`
--   To run locally watching for changes:
-    `yarn start` or `npm run start`
+- To install all dependencies, head over to your terminal and run the below command:
+  `yarn install` or `npm install`
+- To run locally watching for changes:
+  `yarn start` or `npm run start`
 
-Install ESLint and Prettier extensions via `Code > Preferences > Extensions`. 
+Install ESLint and Prettier extensions via `Code > Preferences > Extensions`.
 
 In the `settings.json file`, add the following lines:
 
@@ -42,7 +42,7 @@ In the `settings.json file`, add the following lines:
   },
   // tell the ESLint plugin to run on save
   "eslint.autoFixOnSave": true,
-    // If you have the prettier extension enabled for other languages, turn it off for JS since we're already doing this with ESLint 
+    // If you have the prettier extension enabled for other languages, turn it off for JS since we're already doing this with ESLint
   "prettier.disableLanguages": [
     "javascript",
     "javascriptreact"
@@ -52,6 +52,7 @@ In the `settings.json file`, add the following lines:
   "typescript.updateImportsOnFileMove.enabled": "always",
 
 ```
+
 Restart `VSCode`
 
 Note: The `ESLint` extension for `VSCode` relies on `node_modules/eslint`, so make sure you have run `yarn` before restarting `VSCode`.
